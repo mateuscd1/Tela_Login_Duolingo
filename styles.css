@@ -1,0 +1,130 @@
+body {
+    background-color: rgba(19, 31, 36, 1);
+    font: 500 17px / 20px sans-serif;
+}
+
+.caixa-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.login-fechar{
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    z-index: 10;
+    left: 30px;
+    right: auto;
+}
+
+.login-criarconta{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.butao-criarconta{
+    color: rgba(73, 192, 248, 1);
+    background: none;
+    border: solid transparent;
+    border-radius: 16px;
+    border-color: rgba(55, 70, 79, 1);
+    border-width: 2px 2px 4px;
+    height: 50px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: din-round, sans-serif;
+}
+
+.caixa-criarConta{
+    user-select: inherit;
+}
+
+
+form{
+    display: block;
+    unicode-range: isolate;
+}
+.tela-EntrarLogin, .entrada-usuario{
+    font-size: 26px;
+    text-align: center;
+    margin: 10px 0 15px;
+    color: white;
+    font-family: din-round, sans-serif;
+    align-self: center;
+}
+
+.tela-EntrarLogin{
+    margin: 15px 0 16px;
+}
+
+.login-geral{
+    margin-top: 0;
+    width: 375px;
+    height: 40;
+    align-items: center;
+    position: relative;
+}
+
+.entrada-usuario{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    position: relative;
+    text-align: start;
+    width: 100%;
+}
+
+.email-usuario, .senha-usuario{
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: inherit;
+    width: 70%;
+    flex-direction: column;
+
+}
+
+.caixa-email, .caixa-senha{
+    border: none;
+    background: rgba(32, 47, 54, 1);
+    border: 2px solid rgba(55, 70, 79, 1);
+    box-sizing: border-box;
+    color: white;;
+
+}
+
+.senha-usuario{
+    border: none;
+}
+
+.caixa-senha{
+    padding: 8px 14px;
+    border: none;
+    font-weight: 700;
+}
+
+.caixa-email{
+    padding:8px 14px;
+    border: none;
+    font-weight: 700;
+}
+
+.Senha-caixa{
+    margin: 8px 0px;
+    gap: 8px;
+}
+
+.esqueceu-senha{
+    color:rgba(82, 101, 109, 1);
+    align-self: center;
+    font: 700 15px / 28px din-round, sans-serif;
+    letter-spacing: .8px;
+    margin-left: -2px;
+    margin-right: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
