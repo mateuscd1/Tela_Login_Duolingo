@@ -9,37 +9,55 @@
 <body>
     <div class="caixa-central">
         <div class="caixa-login">
-            <div class="login-fechar">
-                <img src="https://d35aaqx5ub95lt.cloudfront.net/images/48b38c250a652878bc0c779a07f2ca48.svg">
-            </div>
-            
-            <div class="login-criarconta">
-                <button class="butao-criarconta" data-teste="sign-up-button">
-                    <span class="caixa-criarConta">CRIAR CONTA</span>
-                </button>
+            <a class="direcao-paginaDuolingo" href="https://pt.duolingo.com/">
+                <div class="login-fechar">
+                    <img src="https://d35aaqx5ub95lt.cloudfront.net/images/48b38c250a652878bc0c779a07f2ca48.svg">
+                </div>
+            </a>
+            <a class="direcao-cadastro" href="https://pt.duolingo.com/register" target="_blank">
+                <div class="login-criarconta">
+                    <button class="butao-criarconta" data-teste="sign-up-button">
+                        <span class="caixa-criarConta">CRIAR CONTA</span>
+                    </button>
                 
-            </div>
-            
+                </div>
+            </a>
             
             <form class="login-geral" method="post" novalidate>
-                <div>
+                <div class="entrar-tela">
                     <h1 class="tela-EntrarLogin">Entrar</h1>
                 </div>
 
-                <div class="entrada-usuario">
+            <div class="entrada-usuario">
                     <div class="email-usuario">
                         <input class="caixa-email"data-teste="email-input" placeholder="Email ou nome de usuário" type="email" autocomplete="email"> 
+            
 
                     </div>
                     <div class="Senha-caixa">
                         <div class="senha-usuario">
-                            <input class="caixa-senha"data-teste="senha-input" placeholder="Senha" type="password" autocomplete="senha">
-                            <a data-teste="forgot-password" class="esqueceu-senha" href="https://pt.duolingo.com/" tabindex="-1">Esqueceu?</a>
-
+                            <input class="caixa-senha"data-teste="senha-input" placeholder="Senha" type="password" autocomplete="senha">                  
                         </div>
-                    </di>
+                    </div>
 
-                </div>
+                    <button class="butao-entrar" type="submit">
+                        <span class="entrar-but">ENTRAR</span>
+
+                    </button>
+
+                    <div class="divisao-ou">
+                        <div class="linha-cima"></div>
+                        <div class="nome-ou">ou</div>
+                        <div class="linha-baixo"></div>
+                    </div>
+
+                    <p class="butao-redes">
+                        <button class="butao-google"></button>
+                        <button class="butao-facebook"></button>
+
+                    </p>
+
+            </div>
 
             </form>
 
